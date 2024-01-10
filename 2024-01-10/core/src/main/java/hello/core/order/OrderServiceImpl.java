@@ -3,7 +3,6 @@ package hello.core.order;
 import hello.core.discount.DiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
-import hello.core.member.MemorMemberRepository;
 
 public class OrderServiceImpl implements OrderService{
 
@@ -23,5 +22,9 @@ public class OrderServiceImpl implements OrderService{
         int discountPrice = discountPolicy.discount(m, itemPrice);
 
         return new Order(memberId, itemName, itemPrice, discountPrice);
+    }
+
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
     }
 }
