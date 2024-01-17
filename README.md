@@ -9,3 +9,4 @@ Today I Learned
 [1/13](/2024-01/13/README.md) <br/>
 [1/15](/2024-01/15/README.md)
 [1/16](/2024-01/16/README.md)
+[1/17](/2024-01/17/README.md)
